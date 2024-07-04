@@ -22,7 +22,43 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="container">
+            <section class="login main">
+                <h2>Login</h2>
+                <form action="#" id="loginForm">
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                        <span class="error" id="emailError"></span>
+                    </div>
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                        <span class="error" id="passwordError"></span>
+                    </div>
+                    <button type="submit" class="button">Login</button>
+                </form>
+            </section>
 
+            <section class="signup main">
+                <h2>Sign Up</h2>
+                <form action="#" id="signupForm">
+                    <div class="form-control">
+                        <label for="newEmail">Email</label>
+                        <input type="email" id="newEmail" required>
+                        <span class="error" id="newEmailError"></span>
+                    </div>
+                    <div class="form-control">
+                        <label for="newPassword">Password</label>
+                        <input type="password" id="newPassword" required>
+                        <span class="error" id="newPasswordError"></span>
+                    </div>
+                    <button type="submit" class="button">Sign Up</button>
+                </form>
+            </section>
+        </div>
+    </main>
 <section class="call-to-action">
     <p>Start your free trial with us. Sounds interesting, right? Let's get in touch!</p>
     <a href="sign up.html" class="button">Sign Up Today</a>
