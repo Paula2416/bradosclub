@@ -6,14 +6,14 @@
 }
 
 body {
-    background-color: #106ce4;
+    background-color: #f9fafc;
     color: #ededf0;
     line-height: 1.6;
 }
 
 /* header styles */
 header {
-    background-color: #0888f0;
+    background-color: #f7f7f7;
     color: #fff;
     padding: 1rem 0;
 }
